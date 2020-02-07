@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Docker Images running on CloudRUN');
+  res.send('Docker Images running on Cloud');
 });
 
 app.listen(PORT, HOST);
