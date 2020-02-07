@@ -18,4 +18,4 @@ steps:
   - '--platform'
   - 'managed'
 images:
-- gcr.io/[PROJECT_ID]/[IMAGE]
+- 'gcr.io/[PROJECT_ID]/nodejs:$COMMIT_SHA'
