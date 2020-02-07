@@ -14,7 +14,7 @@
    - '--image'
    - 'gcr.io/$PROJECT_ID/nodejs:$COMMIT_SHA'
    - '--region'
-   - 'asia-east1'
+   - 'us-central1'
    - '--platform'
    - 'managed'
  images:
