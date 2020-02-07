@@ -10,7 +10,7 @@
    args:
    - 'run'
    - 'deploy'
-   - 'nodedemo1'
+   - 'nodejs'
    - '--image'
    - 'gcr.io/$PROJECT_ID/nodejs:$COMMIT_SHA'
    - '--region'
